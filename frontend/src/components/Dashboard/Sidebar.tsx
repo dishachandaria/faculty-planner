@@ -20,11 +20,7 @@ const Sidebar = () => {
       path: "/tasks",
       icon: <Check className="mr-2 h-4 w-4" />,
     },
-    {
-      name: "Schedule",
-      path: "/schedule",
-      icon: <Clock className="mr-2 h-4 w-4" />,
-    },
+
   ];
 
   return (

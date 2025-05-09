@@ -76,9 +76,7 @@ const Header = ({ onCreateEvent, tasks, events }: HeaderProps) => {
               <DropdownMenuItem onClick={() => navigate("/profile")}>
                 Profile
               </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => navigate("/settings")}>
-                Settings
-              </DropdownMenuItem>
+
               <DropdownMenuSeparator />
               <DropdownMenuItem onClick={handleLogout}>
                 Logout

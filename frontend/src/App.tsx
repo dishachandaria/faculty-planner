@@ -39,14 +39,14 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="/schedule"
             element={
               <ProtectedRoute>
                 <Schedule />
               </ProtectedRoute>
             }
-          />
+          /> */}
           <Route
             path="/settings"
             element={
