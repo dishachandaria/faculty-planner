@@ -222,7 +222,7 @@ const Profile = () => {
                   <p>📅 Joined {userData.joinDate}</p>
                 </div>
                 {/* Reminder Settings */}
-                <div className="mb-5">
+                {/* <div className="mb-5">
                   <Label htmlFor="reminderDays" className="mb-1 flex items-center gap-1">
                     <Bell size={16} className="text-accent" />
                     Email reminders
@@ -244,7 +244,7 @@ const Profile = () => {
                   <div className="text-xs text-gray-400 mt-1">
                     Set when you want to receive email reminders before events/tasks.
                   </div>
-                </div>
+                </div> */}
                 {/* Actions */}
                 <div className="space-y-2">
                   <Button

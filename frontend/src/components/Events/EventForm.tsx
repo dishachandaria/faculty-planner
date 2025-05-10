@@ -196,7 +196,7 @@ const EventForm = ({ open, onClose, onSave, onDelete, initialData }: EventFormPr
                 setFormData(prev => ({ ...prev, reminders: checked }))
               }
             />
-            <Label htmlFor="reminders">Send email reminder (2 days before)</Label>
+            <Label htmlFor="reminders">Send notification (2 days before)</Label>
           </div>
           
           <div className="flex items-center space-x-2">
